@@ -9,7 +9,7 @@ This is a data analysis project using Python and Streamlit to explore and visual
 - Analyzes transaction types (Loan, Investment, Deposit/Withdrawal).
 - Interactive charts for transaction amounts by type.
 
-## Requirements:
+## Used technologies/frameworks/libraries/languages:
 - Python 3.x
 - pandas
 - matplotlib
