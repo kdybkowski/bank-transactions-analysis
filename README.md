@@ -17,16 +17,6 @@ This is a data analysis project using Python and Streamlit to explore and visual
 - plotly
 - streamlit
 
-## Dataset
-The dataset used for this project is stored in a compressed .zip file for efficient storage and to comply with file size constraints on GitHub.
-
-File location: data/bank_transactions.csv.zip
-Compression format: ZIP
-
-How to Extract the Dataset
-
-Before running the project, extract the dataset in the data/ folder!
-
 ## How to Run:
 1. Clone this repository to your local machine:
    ```bash
@@ -40,6 +30,16 @@ Before running the project, extract the dataset in the data/ folder!
    ```bash
    streamlit run bank_transactions_analysis.py
    ```
+
+## Dataset
+The dataset used for this project is stored in a compressed .zip file for efficient storage and to comply with file size constraints on GitHub.
+
+File location: data/bank_transactions.csv.zip
+Compression format: ZIP
+
+How to Extract the Dataset
+
+Before running the project, extract the dataset in the data/ folder!
 
 ## Screenshots:
 ![App Screenshot](images/screenshot.png)
