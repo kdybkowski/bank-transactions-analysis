@@ -1,0 +1,37 @@
+# Bank Transactions Analysis - Definitions
+
+## Key Metrics:
+
+- **CustomerAge**: The calculated age of the customer based on their date of birth (DOB).
+- **BalanceCategory**: A categorization of customers based on their account balance:
+  - **Low**: Customers with a balance less than 5000 INR.
+  - **Medium**: Customers with a balance between 5000 INR and 20000 INR.
+  - **High**: Customers with a balance greater than 20000 INR.
+- **TransactionType**: A categorization of transactions based on the transaction amount:
+  - **Loan**: Transactions greater than 100000 INR.
+  - **Investment**: Transactions between 20000 INR and 100000 INR.
+  - **Deposit/Withdrawal**: Transactions below 20000 INR.
+
+## Time-Related Features:
+
+- **TransactionDate**: The date when the transaction took place.
+- **TransactionYear**: The year part of the transaction date.
+- **TransactionMonth**: The month part of the transaction date.
+- **TransactionDay**: The day part of the transaction date.
+
+## Customer Demographics:
+
+- **AgeGroup**: A categorization based on the customer's age:
+  - **Young**: Age below 25 years.
+  - **Middle-Aged**: Age between 25 and 50 years.
+  - **Senior**: Age above 50 years.
+
+## Visualizations:
+
+- **Histogram**: A graph showing the distribution of customer ages.
+- **Bar Chart**: A chart showing the distribution of customers by balance category.
+- **Line Chart**: A chart showing the trend of total transaction amounts per month.
+- **Pie Chart**: A chart showing the distribution of different transaction types.
+- **Heatmap**: A matrix of monthly transaction amounts for each transaction type.
+		
+	

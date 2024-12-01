@@ -1,0 +1,31 @@
+# Bank Transactions Analysis - Design Document
+
+## Project Overview
+This project visualizes and analyzes bank transaction data to provide insights on customer behavior, account balance distribution, transaction trends, and more. The app uses Streamlit for the front-end, providing an interactive user experience.
+
+## App Structure:
+1. **Data Preprocessing**:
+   - Data is loaded from a CSV file.
+   - Missing values are removed.
+   - New calculated columns are created: Age, Balance Categories, Transaction Types.
+   - Date-related features are extracted: Year, Month, Day.
+
+2. **User Interface**:
+   - **Streamlit Sidebar**: Filters for selecting transaction data based on year, month, and transaction type.
+   - **Main Panel**: Interactive visualizations, including bar charts, pie charts, line graphs, and heatmaps, to analyze different aspects of transactions.
+
+3. **Data Visualizations**:
+   - **Customer Age Distribution**: Histogram.
+   - **Balance Category Distribution**: Bar chart.
+   - **Monthly Transaction Trends**: Line chart.
+   - **Transaction Type Distribution**: Pie chart with legend.
+   - **Monthly Transaction Amounts**: Heatmap.
+
+## Design Decisions:
+- **Color Scheme**: The color palette for visualizations (e.g., using 'viridis' for bar charts) is chosen to be visually appealing and clear.
+- **Interaction**: Users can filter by transaction month and type for more detailed insights.
+
+## Technologies Used:
+- **Python** (pandas, matplotlib, seaborn, plotly, Streamlit)
+- **Streamlit** for deploying the app.
+- **Data Source**: Bank transaction data (CSV).

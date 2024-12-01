@@ -1,0 +1,50 @@
+1. **Set up Streamlit page configuration**
+   - Set page title to 'Bank Transactions Analysis'
+   - Set page layout to 'wide'
+
+2. **Load Data**
+   - Load the bank transaction dataset from a CSV file located in 'data' directory
+
+3. **Data Preprocessing**
+   - Drop any rows with missing values
+   - Convert the 'CustomerDOB' and 'TransactionDate' columns to datetime format
+   - Calculate 'CustomerAge' from 'CustomerDOB' (current date - birthdate)
+   - Create a new column 'BalanceCategory' to categorize customers based on account balance:
+     - Low, Medium, or High balance
+   - Create a new column 'TransactionType' to categorize transaction amounts:
+     - Loan, Investment, or Deposit/Withdrawal
+   - Extract year, month, and day from 'TransactionDate' for further analysis
+
+4. **Categorize Age Groups**
+   - Create a new column 'AgeGroup' to categorize customers based on their age:
+     - Young (less than 25), Middle-Aged (25 to 50), Senior (50+)
+
+5. **Streamlit User Interface**
+   - Display the title: 'Bank Transactions Analysis'
+
+6. **Visualization: Customer Age Distribution**
+   - Plot a histogram of 'CustomerAge' to show the distribution
+   - Show the plot using Streamlit `st.pyplot()`
+
+7. **Visualization: Customer Distribution by Balance Category**
+   - Plot a bar chart of 'BalanceCategory' to show how customers are distributed across balance categories
+   - Show the plot using Streamlit `st.pyplot()`
+
+8. **Visualization: Monthly Transaction Amount Trends**
+   - Group the data by 'TransactionMonth' and sum the 'TransactionAmount (INR)'
+   - Plot a line chart showing the total transaction amounts for each month
+   - Show the plot using Streamlit `st.pyplot()`
+
+9. **Visualization: Transaction Type Distribution**
+   - Count the number of each 'TransactionType' (Loan, Investment, Deposit/Withdrawal)
+   - Plot a pie chart showing the distribution of transaction types
+   - Show the plot using Streamlit `st.pyplot()`
+
+10. **Visualization: Monthly Transaction Amounts by Type (Heatmap)**
+    - Create a pivot table to summarize transaction amounts by month and transaction type
+    - Plot a heatmap to show the transaction amounts by type for each month
+    - Show the plot using Streamlit `st.pyplot()`
+
+11. **Visualization: Transaction Amounts by Type (Interactive Bar Chart)**
+    - Plot an interactive bar chart showing total transaction amounts for each transaction type using Plotly
+    - Display the chart using Streamlit `st.plotly_chart()`
