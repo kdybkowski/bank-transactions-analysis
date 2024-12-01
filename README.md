@@ -20,7 +20,7 @@ This is a data analysis project using Python and Streamlit to explore and visual
 ## How to Run:
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/bank-transactions-analysis.git
+   git clone https://github.com/kdybkowski/bank-transactions-analysis.git
    ```
 2. Install required dependencies:
    ```bash
