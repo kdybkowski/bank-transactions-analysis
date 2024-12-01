@@ -4,21 +4,11 @@ import seaborn as sns
 import plotly.express as px
 import streamlit as st
 from os.path import join
-import zipfile
 
 # streamlit configuration
 st.set_page_config(page_title='Bank Transactions Analysis', layout='wide')
 
 # load data
-# Define paths
-compressed_path = join('data', 'bank_transactions.csv.zip')
-extracted_path = join('data', 'bank_transactions.csv')
-
-# Extract the CSV if not already done
-if not os.path.exists(extracted_path):
-    with zipfile.ZipFile(compressed_path, 'r') as zip_ref:
-        zip_ref.extractall('data')
-
 data_path = join('data', 'bank_transactions.csv')
 df = pd.read_csv(data_path)
 
