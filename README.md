@@ -35,7 +35,7 @@ This is a data analysis project using Python and Streamlit to explore and visual
 ![App Screenshot](images/screenshot.png)
 
 ## Dataset Source:
-The dataset used in this project is sourced from Shivam Bansal, available at: [Dataset Link]([[#](https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation)])
+The dataset used in this project is sourced from Shivam Bansal, available at: [Dataset Link](https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation)
 
 ## License:
 This project is licensed under the MIT License.
