@@ -34,7 +34,6 @@ This is a data analysis project using Python and Streamlit to explore and visual
 ## Dataset
 The dataset used for this project is stored in a compressed .rar file for efficient storage and to comply with file size constraints on GitHub.
 
-File location: data/bank_transactions.csv.zip
 Compression format: RAR
 
 Before running the project, extract the dataset in the data/ folder!
