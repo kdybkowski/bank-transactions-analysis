@@ -16,6 +16,7 @@ This is a data analysis project using Python and Streamlit to explore and visual
 - seaborn
 - plotly
 - streamlit
+- zipfile
 
 ## How to Run:
 1. Clone this repository to your local machine:
