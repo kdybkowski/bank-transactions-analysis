@@ -16,7 +16,9 @@ This is a data analysis project using Python and Streamlit to explore and visual
 - seaborn
 - plotly
 - streamlit
-- zipfile
+
+## Dataset
+Due to its size, the dataset is hosted externally. Download it [here]([https://link-to-dataset](https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation)).
 
 ## How to Run:
 1. Clone this repository to your local machine:
